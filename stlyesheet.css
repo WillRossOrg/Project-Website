@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body
+{
+    color: #ededed;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px green;
+    text-decoration: none;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(wallpaper.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p {
+    font-size: 20px;
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid rgb(81, 192, 103);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(37, 223, 40);
+    text-decoration: none;
+    margin: 30px 15px 0;
+}
+.home-sci a:hover {
+    background: purple;
+    color: blue;
+    box-shadow: 0 0 20px rgb(23, 133, 176);
+}
+.click-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 28px;
+    background: rgb(177, 0, 177);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    
+
+}
