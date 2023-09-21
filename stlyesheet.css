@@ -151,6 +151,24 @@ body {
   margin-bottom: 15rem;
   margin-left: 20rem;
 }
+.container {
+  position: relative;
+  width: 100%;
+  justify-content: flex-start;
+  height: 100vh;
+  background: url(wallpaper.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 70px 10% 0;
+}
+.sub-title {
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
