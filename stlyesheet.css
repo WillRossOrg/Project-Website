@@ -169,11 +169,11 @@ body {
   text-align: center;
   justify-content: center;
 }
-.bar {
+.technical-bars {
   position: relative;
   max-width: 500px;
   width: 100%;
-  background: #ff004c;
+  background: #04f363;
   margin: 0 15px;
   padding: 10px 20px;
   border-radius: 7px;
