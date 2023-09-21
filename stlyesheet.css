@@ -169,6 +169,15 @@ body {
   text-align: center;
   justify-content: center;
 }
+.bar {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: #ff004c;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
