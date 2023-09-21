@@ -58,6 +58,7 @@ body {
   justify-content: space-between;
   height: 100vh;
   background: url(wallpaper.png) no-repeat;
+  background-image: cover;
   background-size: cover;
   background-position: center;
   display: flex;
